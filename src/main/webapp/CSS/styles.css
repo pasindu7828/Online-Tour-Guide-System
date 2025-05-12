@@ -1,0 +1,46 @@
+body {
+   background-image :url('..image/girl.jpg');
+   background-size:cover;
+   background-repeat:no-repeat;
+   background-position:centre;
+   height:100vh;
+   margin:0;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for the form */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0080ff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
