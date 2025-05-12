@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+     <servlet>
+     	<servlet-name>CreateServlet</servlet-name>
+     	<servlet-class>booking.CreateServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>CreateServlet</servlet-name>
+     	<url-pattern>/CreateServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>AllBookings</servlet-name>
+     	<servlet-class>booking.AllBookings</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>AllBookings</servlet-name>
+     	<url-pattern>/AllBookings</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>updateBookServlet</servlet-name>
+     	<servlet-class>booking.updateBookServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>updateBookServlet</servlet-name>
+     	<url-pattern>/updateBookServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>deletebook</servlet-name>
+     	<servlet-class>booking.deletebook</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>deletebook</servlet-name>
+     	<url-pattern>/deletebook</url-pattern>
+     </servlet-mapping>
+
+</web-app>
